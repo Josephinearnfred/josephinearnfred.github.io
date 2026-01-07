@@ -53,13 +53,14 @@ hr{
   justify-content:space-between;
 }
 
-.intro img{
-  width:160px;
-  height:160px;
-  border-radius:0;
-  object-fit:cover;
-  flex:0 0 auto;
+.intro{
+  display:flex;
+  flex-direction:row-reverse;
+  align-items:center;
+  gap:22px;
+  justify-content:space-between;
 }
+
 
 .intro-text p{
   margin:0;
