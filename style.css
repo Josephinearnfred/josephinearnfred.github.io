@@ -54,6 +54,14 @@ hr{
   justify-content:space-between;
 }
 
+.intro img{
+  width:90px;
+  height:90px;
+  border-radius:0;
+  object-fit:cover;
+  flex:0 0 auto;
+}
+
 .intro-text p{
   margin:0;
   font-size:17px;
