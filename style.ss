@@ -1,96 +1,59 @@
-/* ===== Base layout ===== */
+/* Frederik-like: clean, minimal, sans, narrow column */
+
 body{
-  font-family: "Times New Roman", Times, Georgia, serif;
-  max-width: 820px;
-  margin: 72px auto;
-  padding: 0 24px;
-  font-size: 18.5px;
-  line-height: 1.7;
-  color: #111;
-  background: #fff;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  max-width:760px;
+  margin:48px auto;
+  padding:0 22px;
+  line-height:1.55;
+  font-size:16px;
+  color:#111;
+  background:#fff;
 }
 
-/* ===== Navigation ===== */
+/* top nav */
 nav{
-  font-size: 16px;
-  margin-bottom: 24px;
+  font-size:14px;
+  margin-bottom:14px;
 }
-
 nav a{
-  color: #111;
-  text-decoration: none;
-  margin-right: 6px;
+  color:#111;
+  text-decoration:none;
 }
+nav a:hover{ text-decoration:underline; }
 
-nav a:hover{
-  text-decoration: underline;
-}
-
-nav::after{
-  content: "";
-  display: block;
-  border-bottom: 1px solid #e0e0e0;
-  margin-top: 16px;
-}
-
-/* ===== Heading ===== */
-h1{
-  font-size: 36px;
-  font-weight: 700;
-  margin: 28px 0 12px 0;
-}
-
-/* ===== Profile photo ===== */
-img{
-  float: left;
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin: 6px 22px 12px 0;
-}
-
-/* ===== Paragraphs ===== */
-p{
-  margin: 0 0 16px 0;
-}
-
-/* ===== Clear float after intro ===== */
-body::after{
-  content: "";
-  display: block;
-  clear: both;
-}
-
-
-
-/* ===== Intro layout (Frederik-style) ===== */
+/* divider line */
 hr{
-  border: none;
-  border-top: 1px solid #e0e0e0;
-  margin: 18px 0 28px 0;
+  border:0;
+  border-top:1px solid #e5e5e5;
+  margin:14px 0 26px 0;
 }
 
+/* intro block */
 .intro{
-  display: flex;
-  align-items: center;
-  gap: 26px;
+  display:flex;
+  align-items:center;
+  gap:22px;
 }
-
 .intro img{
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  object-fit: cover;
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  object-fit:cover;
+  flex:0 0 auto;
 }
-
 .intro-text h1{
-  margin: 0 0 6px 0;
-  font-size: 34px;
+  font-size:34px;
+  font-weight:700;
+  margin:0 0 6px 0;
 }
-
 .intro-text p{
-  margin: 0;
-  font-size: 18px;
+  margin:0;
+  font-size:16px;
 }
 
+/* mobile */
+@media (max-width:520px){
+  .intro{ flex-direction:column; align-items:flex-start; }
+  .intro img{ width:140px; height:140px; }
+}
