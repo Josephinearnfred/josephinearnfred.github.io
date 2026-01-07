@@ -50,12 +50,13 @@ hr{
   display:flex;
   align-items:center;
   gap:22px;
+  justify-content:space-between;
 }
 
 .intro img{
-  width:150px;
-  height:150px;
-  border-radius:50%;
+  width:160px;
+  height:160px;
+  border-radius:0;
   object-fit:cover;
   flex:0 0 auto;
 }
