@@ -48,19 +48,11 @@ hr{
 /* intro block */
 .intro{
   display:flex;
+  flex-direction:row-reverse; /* photo on the right */
   align-items:center;
   gap:22px;
   justify-content:space-between;
 }
-
-.intro{
-  display:flex;
-  flex-direction:row-reverse;
-  align-items:center;
-  gap:22px;
-  justify-content:space-between;
-}
-
 
 .intro-text p{
   margin:0;
