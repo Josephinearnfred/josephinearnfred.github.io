@@ -67,6 +67,10 @@ hr{
   font-size:17px;
 }
 
+.intro-text p + p{
+  margin-top:18px;
+}
+
 /* mobile */
 @media (max-width:600px){
   .header{
