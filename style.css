@@ -80,3 +80,14 @@ hr{
     align-items:flex-start;
   }
 }
+
+/* Research page spacing */
+
+.paper{
+  margin-bottom:32px;
+}
+
+.paper p{
+  margin-top:4px;
+  margin-bottom:0;
+}
