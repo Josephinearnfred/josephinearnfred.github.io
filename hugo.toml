@@ -1,0 +1,15 @@
+baseURL = "https://josephinearnfred.com/"
+languageCode = "en-us"
+title = "Josephine Arnfred"
+theme = "researcher"
+
+[params]
+  author = "Josephine Arnfred"
+  description = "PhD Candidate in Political Science"
+  favicon = ""
+
+[params.social]
+  email = "mailto:your.email@domain.com"
+  github = "https://github.com/josephinearnfred"
+  google_scholar = ""
+  twitter = ""
