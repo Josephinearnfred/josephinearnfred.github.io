@@ -61,3 +61,36 @@ body::after{
   display: block;
   clear: both;
 }
+
+
+
+/* ===== Intro layout (Frederik-style) ===== */
+hr{
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 18px 0 28px 0;
+}
+
+.intro{
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.intro img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.intro-text h1{
+  margin: 0 0 6px 0;
+  font-size: 34px;
+}
+
+.intro-text p{
+  margin: 0;
+  font-size: 18px;
+}
+
